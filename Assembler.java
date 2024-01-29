@@ -9,6 +9,7 @@ public class Assembler
         System.out.println("Start Assembler reading");
         String fileSource = "imput.txt";
         Read(fileSource);
+        System.out.println("Ending program");
     }
     //need to read file 
     public static void Read(String source) throws FileNotFoundException
